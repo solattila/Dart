@@ -5,6 +5,7 @@ void main(List<String> args) {
   /// name = 123; variables type cannot change
 
   print('My name is $name, and I came from $country.');
+  print('Commit and push console out.');
 }
 
 String myName() {
