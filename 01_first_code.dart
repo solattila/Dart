@@ -7,8 +7,8 @@ void main(List<String> args) {
   print('My name is $name, and I came from $country.');
   print('Commit and push console out.');
 
-  var nameLength = name.length;
-  print(nameLength);
+  /// var nameLength = stringLength(name);
+  print('${stringLength(name)}');
 }
 
 String myName() {
@@ -17,4 +17,8 @@ String myName() {
 
 myCountry() {
   return 'Hungary';
+}
+
+int stringLength(myString) {
+  return myString.length;
 }
