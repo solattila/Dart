@@ -6,6 +6,9 @@ void main(List<String> args) {
 
   print('My name is $name, and I came from $country.');
   print('Commit and push console out.');
+
+  var nameLength = name.length;
+  print(nameLength);
 }
 
 String myName() {
